@@ -1056,7 +1056,7 @@ infrastructure. This section describes how the system uses the Windows
 Azure Service Bus and some of the alternatives and trade-offs the team 
 considered considered during the design phase. 
 
-> **JanaPersona:** The team at Contoso desided to use the Windows Azure
+> **JanaPersona:** The team at Contoso decided to use the Windows Azure
 > Service Bus because it offers out-of-the-box support for the messaging
 > scenarios in the Conference Management System. This minimizes the
 > amount of code that the team needs to write, and provides for a
