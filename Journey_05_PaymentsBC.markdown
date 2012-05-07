@@ -451,10 +451,10 @@ the business process: the user is selecting quantities of seat types as
 a part of the conference registration task. Thinking about the UI in 
 terms of the task that the user is performing makes it easier to relate 
 the UI to the write-model in your implementation of the CQRS pattern. 
-The UI can send commands to the write-side, and those commands are a 
-part of the domain model on the write-side. In a bounded context that 
-implements the CQRS pattern, the UI typically queries the read-side and 
-receives a DTO, and sends commands to the write-side. 
+The UI can send commands to the write-side, and the information of those 
+commands will be used within the domain model on the write-side. 
+In a bounded context that implements the CQRS pattern, the UI typically 
+queries the read-side and receives a DTO, and sends commands to the write-side. 
 
 ![Figure 3][fig3]
 
