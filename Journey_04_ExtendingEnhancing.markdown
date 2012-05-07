@@ -121,8 +121,7 @@ pre-conference workshop.
 ### Handling Partially Fulfilled Orders
 
 When a registrant creates an order, it may not be possible to completely 
-fulfill the order. For example, a registrant may request a registrant 
-may request five seats for the full conference, five seats for the 
+fulfill the order. For example, a registrant may request five seats for the full conference, five seats for the 
 drinks reception, and three seats for the pre-conference workshop. There 
 may only be three seats available and one seat for the drinks reception, 
 but more than three seats available for the pre-conference workshop. The 
