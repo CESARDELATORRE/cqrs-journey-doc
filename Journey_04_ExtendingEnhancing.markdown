@@ -553,9 +553,9 @@ features in MVC to validate the commands both client-side and
 server-side before sending them to the write-model. 
 
 > **MarkusPersona:** Client-side validation is primarily a convenience
-> to the user that avoids the need to for round trips to the server to
+> to the user that avoids the need for round trips to the server to
 > help the user complete a form correctly. You still need server-side
-> validation to ensure that the data is validated before it is forwarded
+> validation to ensure the a good application security before it is forwarded
 > to the write-model.
 
 The following code sample shows the **AssignRegistrantDetails** command 
