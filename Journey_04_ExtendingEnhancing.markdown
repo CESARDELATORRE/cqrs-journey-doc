@@ -251,7 +251,7 @@ Possible objections to this approach include:
   database (that does not expose an **IQueryable** object. However, you
   can choose to implement the write-model differently in each bounded
   context using an approach that is appropriate to that bounded context. 
-* The client might abuse the **IQueryable** interface be performing 
+* The client might abuse the **IQueryable** interface by performing 
   operations that can be done more efficiently as a part of the 
   de-normalization process. You should ensure that the de-normalized
   data fully meets the requirements of the clients. 
