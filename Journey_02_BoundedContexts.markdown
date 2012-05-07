@@ -24,9 +24,11 @@ this concept is introduced as a way to decompose a large, complex system
 into more manageable pieces: a large system is composed of multiple 
 bounded contexts. Each bounded context is the context for its own 
 self-contained domain model, and has its own **Ubiquitous Language**.
-You can also view a bounded context as autonomous business component 
-defining clear consistency boundaries: one bounded context typically 
-communicates with another bounded context by raising events.
+
+A given Bounded Context could be divided into Business Components. 
+A Business Component can exist in only one Bounded Context.
+
+One bounded context typically communicates with another bounded context by raising events.
 
 > **BharathPersona:** When you use the CQRS pattern, you often use
 > events to communicate between bounded contexts. There are alternative
